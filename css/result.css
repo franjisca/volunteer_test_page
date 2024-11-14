@@ -25,17 +25,51 @@
     font-size: 20px;
 }
 
-.kakao {
-    color: #3A1D1D;
-    background-color: #F7E600;
-    font-size: 20px;
-    border: 0px;
-    border-radius: 10px;
-    transition: transform 0.3s ease;
+
+/* CSS */
+.button-5 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #F7E600;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #3A1D1D;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: Orbit;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
 }
 
-.kakao:hover, kakao:focus {
-    transform: scale(1.1);
+.button-5:hover,
+.button-5:focus {
+  background-color: #F7E600;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: #F7E600;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
 }
 
 
@@ -48,7 +82,7 @@
   box-sizing: border-box;
   color: #FFFFFF;
   cursor: pointer;
-  font-family: Graphik,-apple-system,system-ui,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-family: Orbit;
   font-size: 14px;
   line-height: 1.15;
   overflow: visible;
