@@ -1,0 +1,20 @@
+#main {
+    background-color: whitesmoke;
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.size-custom {
+    width: 50vw;
+    height: 45vh;
+    
+}
+
+@media screen and (max-width: 450px) {
+
+    #main {
+        width: 95%;
+    }
+    
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Orbit&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/default.css" />
+    <link rel="stylesheet" href="../css/result.css" />
+
+    <!-- sns share -->
+    <meta
+      property="og:url"
+      content="https://volurnteer-test-page.netlify.app/"
+    />
+    <meta property="og:title" conetent="봉사유형 테스트" />
+    <meta property="og:type" conetent="website" />
+    <meta property="og:image" conetent="../image/help.png" />
+    <meta
+      property="og:description"
+      conetent="신라디오 팀원들로 알아보는 봉사 유형"
+    />
+
+    <!-- favicon -->
+    <link rel="simple icon" href="../image/favicon.png" />
+    <link resl="apple-touch-icon-precomposed" href="../image/favicon.png" />
+
+    <!-- kakaotalk sdk-->
+    <script
+      src="https://t1.kakaocdn.net/kakao_js_sdk/2.7.2/kakao.min.js"
+      integrity="sha384-TiCUE00h649CAMonG018J2ujOgDKW/kVWlChEuu4jK2vxfAAD0eZxzCKakxg55G4"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      Kakao.init("9d1c4713daab009a674f9d51d80b47b8");
+      Kakao.isInitialized();
+    </script>
+    <title>봉사유형 테스트</title>
+  </head>
+  <body>
+    <section id="share_result" class="mx-auto my-5 py-5">
+      <h2>당신의 결과는?!</h2>
+      <div class="resultName"><p>액션 히어로 '민주' 타입</p></div>
+      <div
+        id="resultImage"
+        class="my-3 col-lg-6 col-md-5 col-sm-6 col-12 mx-auto"
+      >
+        <img src="../image/minju.png" style="max-width: 60%" alt="img" />
+      </div>
+      <div class="resultDsr">
+        <p>
+          당신은 문제 해결에 있어서 창의적이고 논리적인 접근을 하는 천재적인
+          해결사입니다. 마치 셜록 홈즈처럼 복잡한 문제도 침착하게 분석하고,
+          누구도 생각지 못한 방법으로 해결해냅니다. 봉사 현장에서 위기가 닥치면,
+          당신의 침착함과 창의력 덕분에 상황은 금세 나아집니다. 당신은 문제를
+          멀리서 바라보며 종합적으로 해결하는 능력이 뛰어나, 주변 사람들은 항상
+          당신에게 기대고 의지합니다. 복잡한 상황에서도 빠르게 핵심을 파악하고,
+          누구보다도 효율적으로 문제를 해결하는 능력을 가진 당신은 팀에게
+          없어서는 안 될 존재입니다. 언제나 해결책을 제시하는 명석한 두뇌와
+          냉철한 판단력으로 현장의 어려움을 극복합니다.
+        </p>
+      </div>
+      <button
+        type="button"
+        class="gohome mt-3 py-2 px-3"
+        onclick="location.href='/index.html'"
+      >
+        나도 참여하기
+      </button>
+    </section>
+  </body>
+</html>

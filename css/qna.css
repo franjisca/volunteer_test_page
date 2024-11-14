@@ -1,0 +1,43 @@
+#qna{
+    display: none;
+}
+
+
+.qBox {
+   
+    text-align: center;
+    border-radius: 10px;
+    font-size: 24px;
+    width: 90%;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.yesBtn, .noBtn {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    display: block;
+    width: 90%;
+    border: 0px;
+    font-size: 20px;
+}
+
+.yesBtn:hover, .noBtn:hover{
+    background-color: rgb(250, 102, 102);
+    color: whitesmoke;
+}
+
+
+.status {
+    height: 20px;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+}
+
+.statusBar{
+    height: 20px;
+    width: 100%;
+    background: linear-gradient(to bottom,  #febbbb 0%,#fe9090 45%,#ff5c5c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    transition: width 0.5s ease;
+}
