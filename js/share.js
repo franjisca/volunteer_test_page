@@ -7,13 +7,13 @@ function kakaoshare() {
     let resultPage;
 
     // Set the result page based on the user's result
-    if (resultName === "당신은 든든한 리더 수향 타입") {
+    if (resultName === "든든한 리더 수향 타입") {
         resultPage = "result-suhyang.html";
-    } else if (resultName === "당신은 액션 히어로 민주 타입") {
+    } else if (resultName === "액션 히어로 민주 타입") {
         resultPage = "result-minju.html";
-    } else if (resultName === "당신은 배움의 마법사 기은 타입") {
+    } else if (resultName === "배움의 마법사 기은 타입") {
         resultPage = "result-kieun.html";
-    } else if (resultName === "당신은 솔로몬 주연 타입") {
+    } else if (resultName === "솔로몬 주연 타입") {
         resultPage = "result-juyeon.html";
     } else {
         resultPage = "result-stone.html"; // Default page if no result matches
